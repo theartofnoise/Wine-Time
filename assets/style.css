@@ -56,7 +56,8 @@ only screen and (max-width: 760px),
 		border: none;
 		border-bottom: 1px solid #eee; 
 		position: relative;
-		padding-left: 50%; 
+        padding-left: 50%;
+        background-color:#afafaf; 
 	}
 	
 	td:before { 
@@ -72,13 +73,11 @@ only screen and (max-width: 760px),
 	* {
         text-align: right;
     }
-    /* #wineInfo {
-        text-align: left!important;
-    } */
+    
 	/*
 	Label the data
 	*/
-	td:nth-of-type(1):before { content: "Brand"; }
+	td:nth-of-type(1):before { content: "Brand";}
 	td:nth-of-type(2):before { content: "Type"; }
 	td:nth-of-type(3):before { content: "Year"; }
 	td:nth-of-type(4):before { content: "Description"; }
