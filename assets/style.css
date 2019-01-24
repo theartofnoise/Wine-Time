@@ -4,7 +4,8 @@ body {
 .card {
     box-shadow: 5px 5px 5px;
 }
-form {background-color: #afafaf;}
+input[type=text],input[type=name],input[type=number], #ArthurApproved, #JulieApproved {background-color: rgb(233, 233, 233)}
+form, #grey {background-color: #afafaf;}
 .card-header {
     color: rgb(255, 235, 235);
     background-color: rgba(0, 0, 0, 0.72);
