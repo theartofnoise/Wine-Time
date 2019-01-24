@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ArJu Wine List</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icons8-champagne-64.png">
+    <link rel="apple-touch-icon" href="assets/images/icons8-champagne-64.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div class='container' style='width:"70%" ; margin:"auto" '>
+
+        <div class="container" style='background-color: black; border-radius: 5px; padding: 15px 25px 15px 25px'>
+            <h3 class="display-4" style='color:white'>Wine-Time</h3>
+            <p class="lead" style='color:white'>What's A Wine Body?!</p>
+        </div>
+
+        <div class="card" style="width: 100%; margin: 15px 0px;">
+            <div class="card-header"> Wine List <span style="float:right" id="timeNow"></span>
+            </div>
+            <table class="table text-center">
+
+                <tbody id="topRow">
+
+                    <tr id="theTR">
+
+                        <th scope="col"><b>Brand</b></th>
+                        <th scope="col"><b>Type</b></th>
+                        <th scope="col"><b>Year</b></th>
+                        <th scope="col"><b>Description</b></th>
+                        <th scope="col"><b>Arthur Approved</b></th>
+                        <th scope="col"><b>Julie Approved</b></th>
+                        <th scope="col"><b>Price</b></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card" style="width: 100%; margin: 15px 0px;">
+            <div class="card-header">
+                Enter Wine Info
+            </div>
+
+            <form style='padding:20px'>
+                <div class="form-group">
+                    <label for="wineName">Brand</label>
+                    <input type="name" class="form-control" id="wineName" placeholder="Estancia">
+                </div>
+
+                <div class="form-group">
+                    <label for="type">Type</label>
+                    <input type="text" class="form-control" id="wineType" placeholder="Red Blend">
+                </div>
+
+                <div class="form-group">
+                    <label for="year">Year</label>
+                    <input type="text" class="form-control" id="wineYear" placeholder="2016">
+                </div>
+
+                <div class="form-group">
+                    <label for="Describing">Describing Words</label>
+                    <input type="text" class="form-control" id="wineDescription" placeholder="Dry, Bold etc.">
+                </div>
+
+                <div class="form-group">
+                        <label for="arthur">Approvals</label>
+
+                    <select id="ArthurApproved" class="form-control">
+                        <option>Arthur Approved</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <select id="JulieApproved" class="form-control">
+                        <option>Julie Approved</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="text" class="form-control" id="winePrice" placeholder="49.99">
+                </div>
+                <button type="submit" class="btn btn-secondary" id='submit' style='text-align:"right"'>Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script src="assets/logic.js"></script>
+</body>
+
+</html>
