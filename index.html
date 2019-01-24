@@ -22,32 +22,10 @@
 
 <body>
     <div class='container' style='width:"70%" ; margin:"auto" '>
-
-        <div class="container" style='background-color: black; border-radius: 5px; padding: 15px 25px 15px 25px' id="topBG">
-            <h3 id="shadow" class="display-4" style='color:white'>Wine-Time</h3>
-            <p id="shadow" class="lead" style='color:white'>What's A Wine Body?!</p>
-        </div>
-
-        <div class="card" style="width: 100%; margin: 15px 0px;">
-            <div class="card-header"> Wine List <span style="float:right" id="timeNow"></span>
+            <div class="container" style='background-color: black; border-radius: 5px; padding: 15px 25px 15px 25px' id="topBG">
+                <h3 id="shadow" class="display-4" style='color:white'>Wine-Time</h3>
+                <p id="shadow" class="lead" style='color:white'>What's A Wine Body?!</p>
             </div>
-            <table class="table text-center">
-
-                <tbody id="topRow">
-
-                    <tr id="theTR">
-
-                        <th scope="col"><b>Brand</b></th>
-                        <th scope="col"><b>Type</b></th>
-                        <th scope="col"><b>Year</b></th>
-                        <th scope="col"><b>Description</b></th>
-                        <th scope="col"><b>Arthur Approved</b></th>
-                        <th scope="col"><b>Julie Approved</b></th>
-                        <th scope="col"><b>Price</b></th>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
 
         <div id="wineInfo" class="card" style="width: 100%; margin: 15px 0px;">
             <div class="card-header">
@@ -76,7 +54,7 @@
                 </div>
 
                 <div class="form-group">
-                        <label for="arthur">Approvals</label>
+                    <label for="arthur">Approvals</label>
 
                     <select id="ArthurApproved" class="form-control">
                         <option>Arthur Approved</option>
@@ -100,6 +78,29 @@
                 <button type="submit" class="btn btn-secondary" id='submit' style='text-align:"right"'>Submit</button>
             </form>
         </div>
+
+
+        <div class="card" style="width: 100%; margin: 15px 0px;">
+            <div class="card-header"> Wine List <span style="float:right" id="timeNow"></span>
+            </div>
+            <table class="table text-center">
+
+                <tbody id="topRow">
+
+                    <tr id="theTR">
+
+                        <th scope="col"><b>Brand</b></th>
+                        <th scope="col"><b>Type</b></th>
+                        <th scope="col"><b>Year</b></th>
+                        <th scope="col"><b>Description</b></th>
+                        <th scope="col"><b>Arthur Approved</b></th>
+                        <th scope="col"><b>Julie Approved</b></th>
+                        <th scope="col"><b>Price</b></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
 
     </div>
 
