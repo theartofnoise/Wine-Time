@@ -1,7 +1,20 @@
+body {
+    background-color: #8e000e;
+}
+.card {
+    box-shadow: 5px 5px 5px;
+}
+form {background-color: #afafaf;}
+.card-header {
+    color: rgb(255, 235, 235);
+    background-color: rgba(0, 0, 0, 0.72);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
 #topBG {
     background-image: url("../assets/images/ArtAndJuie.jpg");
     background-position: 54% 88%;
     text-align: center;
+    box-shadow: 5px 5px 5px;
     
 }
 #wineName, #wineType{
