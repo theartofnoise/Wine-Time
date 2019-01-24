@@ -4,7 +4,9 @@
     text-align: center;
     
 }
-
+#wineName, #wineType{
+    text-transform: capitalize;
+}
 
 #shadow {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
