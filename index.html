@@ -35,28 +35,28 @@
             <form style='padding:20px'>
                 <div class="form-group">
                     <label for="wineName">Brand</label>
-                    <input type="name" autocapitalize="words" class="form-control" id="wineName" placeholder="Estancia">
+                    <input type="name" autocapitalize="words" class="form-control" id="wineName" placeholder="Estancia" required>
                 </div>
 
                 <div class="form-group">
                     <label for="type">Type</label>
-                    <input type="text" autocapitalize="words" class="form-control" id="wineType" placeholder="Red Blend">
+                    <input type="text" autocapitalize="words" class="form-control" id="wineType" placeholder="Red Blend" required>
                 </div>
 
                 <div class="form-group">
                     <label for="year">Year</label>
-                    <input type="number" min="0" step="1" class="form-control" id="wineYear" placeholder="2016">
+                    <input type="number" min="0" step="1" class="form-control" id="wineYear" placeholder="2016" required>
                 </div>
 
                 <div class="form-group">
                     <label for="Describing">Describing Words</label>
-                    <input type="text" class="form-control" id="wineDescription" placeholder="Dry, Bold etc.">
+                    <input type="text" class="form-control" id="wineDescription" placeholder="Dry, Bold etc." required>
                 </div>
 
                 <div class="form-group">
                     <label for="arthur">Approvals</label>
 
-                    <select id="ArthurApproved" class="form-control">
+                    <select id="ArthurApproved" class="form-control" required>
                         <option>Arthur</option>
                         <option>Yes</option>
                         <option>No</option>
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="form-group">
-                    <select id="JulieApproved" class="form-control">
+                    <select id="JulieApproved" class="form-control" required>
                         <option>Julie</option>
                         <option>Yes</option>
                         <option>No</option>
@@ -73,7 +73,7 @@
 
                 <div class="form-group">
                     <label for="price">Price</label>
-                    <input type="number" min="0" step="1" class="form-control" id="winePrice" placeholder="49.99">
+                    <input type="number" min="0" step="1" class="form-control" id="winePrice" placeholder="49.99" required>
                 </div>
                 <button type="submit" class="btn btn-secondary" id='submit' style='text-align:"right"'>Submit</button>
             </form>
