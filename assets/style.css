@@ -11,6 +11,9 @@ form, #grey {background-color: #afafaf;}
     background-color: rgba(0, 0, 0, 0.72);
     border-bottom: 1px solid rgba(0,0,0,.125);
 }
+.nameHighlight { background-color: red;}
+.julieHighlight { background-color: #ff9f9f;}
+.artHighlight { background-color:rgb(255, 83, 212);}
 #topBG {
     background-image: url("../assets/images/ArtAndJuie.jpg");
     background-position: 54% 88%;
@@ -86,3 +89,6 @@ only screen and (max-width: 760px),
 	td:nth-of-type(7):before { content: "Price"; }
 	
 }
+.smallNameHighlight {background-color: red;}
+.smallArtHighlight {background-color:rgb(255, 83, 212); }
+.smallJulieHighlight {background-color: #ff9f9f}
